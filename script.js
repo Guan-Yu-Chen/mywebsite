@@ -1,4 +1,4 @@
-alert();
+alert(1);
 document.addEventListener("DOMContentLoaded", function () {
   const button = document.getElementById("showTimeButton");
   button.addEventListener("click", function () {
