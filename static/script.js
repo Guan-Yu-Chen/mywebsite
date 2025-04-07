@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   const button = document.getElementById("showTimeButton");
   button.addEventListener("click", function () {
-    displayCurrentTime();
+    alert();
   });
 
   function displayCurrentTime() {
