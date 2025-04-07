@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>xss4</title>
+    <title>View Note</title>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="script-src 'nonce-OTQ0NDQ5'"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -41,16 +45,17 @@
     </style>
   </head>
   <body>
-    <h1>🌏XSS4 - Any Script</h1>
-    <form method="post">
-      <textarea name="note" rows="4" cols="50"></textarea><br />
-      <button class="btn" type="submit">Submit Script</button>
-    </form>
-    <br />
-    <form action="/report" method="get">
-      <button class="btn" type="submit" style="background-color: red">
-        Report to admin
-      </button>
-    </form>
+    <h1>Note Content</h1>
+    
+    sdasaddas
+    
+
+    <p id="timeDisplay"></p>
+    <button id="showTimeButton" class="btn">更新時間</a>
+    <script
+      src="/static/script.js"
+      nonce="OTQ0NDQ5"
+      defer
+    ></script>
   </body>
 </html>
